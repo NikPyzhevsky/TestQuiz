@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    lol
+    <script>
+        const foo = {
+            a:6
+        }
+        const bar ={
+            a:20
+        }
+
+        const combined = {
+            ...foo,
+            ...bar
+        }
+        console.log(combined.a)
+
+        window.onfocus = function() {
+  console.log( 'Вкладка открыта! :)' );
+};
+window.onblur = function() {
+  console.log( 'Вкладка не открыта! :(' );
+};
+    </script>
+</body>
+</html>
